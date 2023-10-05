@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.resultdisplay{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+.buttons #button {
+    margin-top: 15px;
+    display: flex;
+    display: inline;
+    padding: 15px;
+    justify-content: center;
+    align-items: center; 
+ }
+ button:hover
+ {
+    border-color:  green;
+    cursor: pointer;
+ }
+ .but{
+    text-align: center;
+    margin-top: 15px;
+ }
+ #resultdisplay,#movedisplay,#scoredisplay,#resetbutton{
+          font-size: 1.5rem;
+          
+ }
+ #resetbutton:hover{
+      color: white;
+       background-color: green;
+       cursor: pointer;
+ }
+ .move-img{
+    height: 70px;
+    width: 70px;
+ }
+ .move-button{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+ }

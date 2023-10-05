@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+   <style>
+   
+   </style>
+</head>
+<body>
+    <h1 class="title">Rock Paper Scissor</h1>
+   <div class="but">
+       
+    <div class="buttons"> 
+        <div class="rockbutton" id="button">
+            <button onclick="
+               userPick('rock');
+            " class="move-button"><img id="" src="image/rock-emoji.png" alt="rock" class="move-img"></button>
+
+             </div>
+        
+        <div class="papperbutton" id="button">
+            <button onclick=" 
+            userPick('paper');
+          " class="move-button"><img src="image/paper-emoji.png" alt="papper" class="move-img"></button>
+
+        </div>
+        
+            <div class="scissorbutton" id="button">
+                <button onclick="
+                userPick('scissor');
+              " class="move-button"><img src="image/scissor-emoji.png" alt="scissor" class="move-img"></button>
+            </div>
+     
+       
+         
+         <p class="js-result" id="resultdisplay"></p> 
+         
+         <p class="js-move" id="movedisplay"></p>
+           <br>
+        
+         <p class="js-score" id="scoredisplay"></p>
+
+        <button onclick="
+            point.win=0;
+            point.loss=0;
+            point.tie=0;
+            localStorage.removeItem(point);
+            updatescore();
+            " id="resetbutton">Reset</button>
+   </div>
+   <script src="javascript.js"></script>
+</body>
+</html>
